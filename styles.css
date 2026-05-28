@@ -637,6 +637,62 @@ h1 {
   gap: 18px;
 }
 
+.stats-section {
+  position: relative;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 340px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.035)),
+    #0d0d13;
+}
+
+.stat-card span {
+  display: block;
+  margin-bottom: 22px;
+  color: var(--text);
+  font-size: clamp(42px, 5vw, 64px);
+  line-height: 0.9;
+  font-weight: 900;
+}
+
+.stat-card h3 {
+  margin: 0 0 14px;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.22;
+}
+
+.stat-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.stat-card a {
+  margin-top: auto;
+  padding-top: 22px;
+  color: var(--violet-2);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.stat-card a:hover {
+  color: var(--text);
+}
+
 .package-card {
   position: relative;
   display: flex;
@@ -1129,6 +1185,7 @@ textarea:focus {
 
   .work-grid,
   .package-grid,
+  .stats-grid,
   .review-grid {
     grid-template-columns: 1fr;
   }
