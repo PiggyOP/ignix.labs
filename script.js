@@ -23,9 +23,9 @@ const packages = [
       "Cart and checkout setup",
       "Product, collection, and policy pages",
       "Email capture and analytics setup",
-      "Speed and mobile QA"
-      "Payment intergration",
-      "SEO Optimization",
+      "Speed and mobile QA",
+      "Payment integration",
+      "SEO Optimization"
     ],
     highlight: true
   },
