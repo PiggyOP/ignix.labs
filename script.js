@@ -3,10 +3,9 @@ const packages = [
     id: "starter",
     name: "Launch Site",
     badge: "Starter",
-    price: 1499,
+    price: 129,
     summary: "A sharp business website for service brands that need a strong first impression.",
     features: [
-      "Up to 5 custom pages",
       "Mobile responsive design",
       "Contact form and lead capture",
       "Basic SEO structure",
@@ -17,7 +16,7 @@ const packages = [
     id: "commerce",
     name: "Commerce Build",
     badge: "Most popular",
-    price: 3499,
+    price: 299,
     summary: "A polished online store with product pages, checkout flow, and conversion-focused sections.",
     features: [
       "Up to 20 products loaded",
@@ -25,6 +24,8 @@ const packages = [
       "Product, collection, and policy pages",
       "Email capture and analytics setup",
       "Speed and mobile QA"
+      "Payment intergration",
+      "SEO Optimization",
     ],
     highlight: true
   },
@@ -32,7 +33,7 @@ const packages = [
     id: "signature",
     name: "Signature Platform",
     badge: "Premium",
-    price: 6999,
+    price: 599,
     summary: "A custom website system for brands that need deeper content, integrations, and scale.",
     features: [
       "Custom page system",
