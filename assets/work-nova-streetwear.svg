@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Nova Streetwear fake e-commerce website preview</title>
+  <desc id="desc">A polished dark fashion store mockup with product cards, hero copy, and violet accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08080d"/>
+      <stop offset="0.46" stop-color="#151421"/>
+      <stop offset="1" stop-color="#362060"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1eef9"/>
+      <stop offset="0.5" stop-color="#9a66ff"/>
+      <stop offset="1" stop-color="#6330d5"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfbfd"/>
+      <stop offset="1" stop-color="#8e8d96"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="976" cy="146" r="220" fill="#8c57ff" opacity="0.2"/>
+  <circle cx="180" cy="616" r="230" fill="#66e4ff" opacity="0.09"/>
+  <rect x="58" y="56" width="1084" height="648" rx="34" fill="#0c0c12" stroke="#ffffff" stroke-opacity="0.13" filter="url(#shadow)"/>
+  <rect x="58" y="56" width="1084" height="72" rx="34" fill="#151521"/>
+  <circle cx="102" cy="92" r="9" fill="#d9d9df" opacity="0.7"/>
+  <circle cx="132" cy="92" r="9" fill="#d9d9df" opacity="0.45"/>
+  <circle cx="162" cy="92" r="9" fill="#d9d9df" opacity="0.3"/>
+  <text x="218" y="99" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">NOVA</text>
+  <text x="800" y="99" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Shop</text>
+  <text x="874" y="99" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Drops</text>
+  <text x="958" y="99" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Cart</text>
+  <rect x="94" y="170" width="482" height="252" rx="24" fill="url(#violet)"/>
+  <path d="M94 368 C176 300 240 326 318 270 C406 206 478 234 576 172 L576 422 L94 422 Z" fill="#ffffff" opacity="0.18"/>
+  <text x="626" y="222" fill="#b28cff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="4">NEW DROP</text>
+  <text x="626" y="286" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">Streetwear</text>
+  <text x="626" y="352" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900">for launch</text>
+  <rect x="626" y="388" width="168" height="54" rx="12" fill="url(#violet)"/>
+  <text x="668" y="423" fill="#08080d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Shop now</text>
+  <rect x="94" y="476" width="300" height="174" rx="22" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect x="122" y="506" width="244" height="78" rx="16" fill="url(#silver)"/>
+  <text x="122" y="624" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Premium hoodie</text>
+  <text x="310" y="624" fill="#b28cff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">$88</text>
+  <rect x="450" y="476" width="300" height="174" rx="22" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect x="478" y="506" width="244" height="78" rx="16" fill="#2a213f"/>
+  <circle cx="598" cy="545" r="42" fill="#8c57ff" opacity="0.78"/>
+  <text x="478" y="624" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Cargo jacket</text>
+  <text x="666" y="624" fill="#b28cff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">$142</text>
+  <rect x="806" y="476" width="300" height="174" rx="22" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect x="834" y="506" width="244" height="78" rx="16" fill="#e8e7ee"/>
+  <path d="M900 584 L1014 506 L1078 584 Z" fill="#8c57ff" opacity="0.58"/>
+  <text x="834" y="624" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Launch sneaker</text>
+  <text x="1022" y="624" fill="#b28cff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">$120</text>
+</svg>

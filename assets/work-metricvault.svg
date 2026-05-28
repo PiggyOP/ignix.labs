@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">MetricVault fake SaaS website preview</title>
+  <desc id="desc">A clean SaaS analytics website mockup with dashboard cards, chart lines, and pricing blocks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08100d"/>
+      <stop offset="0.45" stop-color="#171722"/>
+      <stop offset="1" stop-color="#33205c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#54e6a8"/>
+      <stop offset="0.48" stop-color="#66e4ff"/>
+      <stop offset="1" stop-color="#8c57ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <rect x="42" y="36" width="816" height="448" rx="30" fill="#0c0c12" stroke="#ffffff" stroke-opacity="0.14"/>
+  <text x="84" y="94" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">MetricVault</text>
+  <rect x="658" y="66" width="144" height="42" rx="12" fill="url(#accent)"/>
+  <text x="696" y="93" fill="#050507" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900">Start trial</text>
+  <text x="84" y="170" fill="#b28cff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900" letter-spacing="4">ANALYTICS OS</text>
+  <text x="84" y="226" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="900">Know what</text>
+  <text x="84" y="282" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="900">moves revenue</text>
+  <text x="84" y="328" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Campaign dashboards, client reports,</text>
+  <text x="84" y="356" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">and weekly growth alerts in one place.</text>
+  <rect x="430" y="142" width="344" height="214" rx="24" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect x="462" y="174" width="118" height="62" rx="16" fill="#0c0c12"/>
+  <text x="482" y="199" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">MRR</text>
+  <text x="482" y="226" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">$84.2k</text>
+  <rect x="606" y="174" width="136" height="62" rx="16" fill="#0c0c12"/>
+  <text x="626" y="199" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">Leads</text>
+  <text x="626" y="226" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">12,842</text>
+  <polyline points="462,306 508,286 554,296 600,254 646,272 704,224 742,238" fill="none" stroke="#8c57ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="462,324 508,314 554,318 600,292 646,302 704,270 742,276" fill="none" stroke="#54e6a8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.86"/>
+  <rect x="84" y="404" width="188" height="48" rx="14" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="112" y="435" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">View platform</text>
+  <rect x="304" y="404" width="188" height="48" rx="14" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="332" y="435" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">See pricing</text>
+</svg>

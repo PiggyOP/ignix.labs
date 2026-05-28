@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">UrbanFit Studio fake booking website preview</title>
+  <desc id="desc">A modern fitness class booking page mockup with schedule cards and trainer imagery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091113"/>
+      <stop offset="0.5" stop-color="#172436"/>
+      <stop offset="1" stop-color="#3c2267"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#66e4ff"/>
+      <stop offset="1" stop-color="#8c57ff"/>
+    </linearGradient>
+    <linearGradient id="portrait" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f4f7"/>
+      <stop offset="1" stop-color="#7c7a86"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <rect x="42" y="36" width="816" height="448" rx="30" fill="#0c0c12" stroke="#ffffff" stroke-opacity="0.14"/>
+  <text x="84" y="94" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">UrbanFit</text>
+  <text x="626" y="94" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Classes</text>
+  <text x="714" y="94" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Trainers</text>
+  <text x="84" y="168" fill="#b28cff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900" letter-spacing="4">BOOKING LIVE</text>
+  <text x="84" y="224" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">Train with</text>
+  <text x="84" y="282" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900">a sharper plan</text>
+  <rect x="84" y="326" width="172" height="50" rx="12" fill="url(#accent)"/>
+  <text x="118" y="358" fill="#050507" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">Book a class</text>
+  <rect x="304" y="142" width="210" height="250" rx="24" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <circle cx="408" cy="225" r="58" fill="url(#portrait)"/>
+  <path d="M344 360 C354 308 462 308 474 360 Z" fill="url(#accent)" opacity="0.78"/>
+  <rect x="556" y="142" width="246" height="70" rx="18" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="582" y="174" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Power HIIT</text>
+  <text x="582" y="196" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Today, 6:30 PM</text>
+  <rect x="556" y="236" width="246" height="70" rx="18" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="582" y="268" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Strength Flow</text>
+  <text x="582" y="290" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Tomorrow, 8:00 AM</text>
+  <rect x="556" y="330" width="246" height="70" rx="18" fill="#171722" stroke="#ffffff" stroke-opacity="0.12"/>
+  <text x="582" y="362" fill="#f5f4f7" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Mobility Reset</text>
+  <text x="582" y="384" fill="#aaa8b5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Friday, 7:15 PM</text>
+  <circle cx="784" cy="174" r="17" fill="#8c57ff"/>
+  <circle cx="784" cy="268" r="17" fill="#66e4ff"/>
+  <circle cx="784" cy="362" r="17" fill="#54e6a8"/>
+</svg>
