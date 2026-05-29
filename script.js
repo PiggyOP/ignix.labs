@@ -237,6 +237,31 @@ function getCheckoutUrl(item, formData) {
   return `${item.stripePaymentLink}${separator}${params.toString()}`;
 }
 
+async function sendCheckoutDetails(item, formData) {
+  const total = getDiscountedPrice(item.price);
+  const payload = {
+    _subject: `New Ignix Labs paid order: ${item.name}`,
+    _template: "table",
+    _captcha: "false",
+    package: item.name,
+    package_price: currency.format(item.price),
+    discounted_total: currency.format(total),
+    business_name: formData.get("business"),
+    contact_email: formData.get("email"),
+    launch_timeline: formData.get("timeline"),
+    order_instructions: formData.get("instructions")
+  };
+
+  await fetch("https://formsubmit.co/ajax/ignixlabs@gmail.com", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json"
+    },
+    body: JSON.stringify(payload)
+  });
+}
+
 function syncBodyLock() {
   const hasOpenOverlay =
     cartDrawer.classList.contains("open") ||
@@ -419,7 +444,7 @@ function setupEvents() {
     if (event.target === saleModal) closeSalePopup();
   });
 
-  document.querySelector("[data-checkout-form]").addEventListener("submit", (event) => {
+  document.querySelector("[data-checkout-form]").addEventListener("submit", async (event) => {
     event.preventDefault();
     const selectedPackage = getSelectedPackage();
 
@@ -434,6 +459,13 @@ function setupEvents() {
       checkoutNote.textContent =
         "Stripe Payment Link not added yet. Create a Stripe Payment Link for this package and paste it into script.js.";
       return;
+    }
+
+    checkoutNote.textContent = "Saving order details before opening Stripe...";
+    try {
+      await sendCheckoutDetails(selectedPackage, new FormData(event.currentTarget));
+    } catch (error) {
+      console.warn("Order details email failed before Stripe redirect.", error);
     }
 
     window.location.href = checkoutUrl;
