@@ -1,9 +1,9 @@
 const packages = [
   {
     id: "starter",
-    name: "Launch Site",
-    badge: "Starter",
-    price: 129,
+    name: "Basic Site",
+    badge: "Basic",
+    price: 749,
     summary: "A sharp business website for service brands that need a strong first impression.",
     features: [
       "Mobile responsive design",
@@ -16,7 +16,7 @@ const packages = [
     id: "commerce",
     name: "Commerce Build",
     badge: "Most popular",
-    price: 299,
+    price: 1499,
     summary: "A polished online store with product pages, checkout flow, and conversion-focused sections.",
     features: [
       "Up to 20 products loaded",
@@ -33,14 +33,16 @@ const packages = [
     id: "signature",
     name: "Signature Platform",
     badge: "Premium",
-    price: 599,
+    price: 2249,
     summary: "A custom website system for brands that need deeper content, integrations, and scale.",
     features: [
       "Custom page system",
       "Advanced animations and interactions",
       "Booking, CRM, or payment integrations",
       "Content architecture and copy polish",
-      "30 days of post-launch support"
+      "30 days of post-launch support",
+      "Clean website design",
+      "24/7 Customer support"
     ]
   }
 ];
@@ -50,21 +52,21 @@ const seasonalSales = {
     title: "Winter Website Sale",
     season: "Winter pricing",
     eyebrow: "Winter launch offer",
-    discount: 18,
+    discount: 20,
     message: "Book your website build this winter and save on every Ignix Labs package."
   },
   spring: {
     title: "Spring Website Refresh",
     season: "Spring pricing",
     eyebrow: "Spring growth offer",
-    discount: 15,
+    discount: 20,
     message: "Freshen up your brand for the season with discounted website packages."
   },
   summer: {
     title: "Summer Website Sale",
     season: "Summer pricing",
     eyebrow: "Summer build offer",
-    discount: 25,
+    discount: 20,
     message: "Summer discounts are live. Every website package is marked down for a limited time."
   },
   fall: {
