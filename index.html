@@ -247,14 +247,20 @@
       <section class="section" id="packages" aria-labelledby="packages-title">
         <div class="section-heading">
           <p class="eyebrow">Website deals</p>
-          <h2 id="packages-title">Choose a test package and start a draft order.</h2>
+          <h2 id="packages-title">Choose a founder-priced package and start your build.</h2>
           <p>
-            These are temporary packages for layout and checkout testing. Pricing,
-            terms, deliverables, and names can be replaced with real data.
+            Every package includes strategy, premium design, responsive development,
+            launch support, and a cleaner path for customers to take action.
           </p>
         </div>
 
+        <div class="pricing-callout" role="note">
+          <strong>Founder pricing: We are about 50% below typical web design rates.</strong>
+          <span>Early Ignix Labs clients get sharper launch pricing while we build our portfolio.</span>
+        </div>
+
         <div class="package-grid" data-package-grid></div>
+        <p class="pricing-footnote">*Domain and hosting costs may apply</p>
       </section>
 
       <section class="section dark-band" id="reviews" aria-labelledby="reviews-title">
@@ -344,12 +350,22 @@
           <button class="icon-button" type="button" data-close-cart aria-label="Close cart">x</button>
         </div>
         <div class="cart-items" data-cart-items></div>
+        <div class="cart-summary" aria-live="polite">
+          <div>
+            <span>Package price</span>
+            <strong data-cart-subtotal>$0</strong>
+          </div>
+          <div>
+            <span>Founder discount</span>
+            <strong data-cart-savings>-$0</strong>
+          </div>
+        </div>
         <div class="cart-total">
-          <span>Total</span>
+          <span>Due today</span>
           <strong data-cart-total>$0</strong>
         </div>
-        <button class="button primary full" type="button" data-checkout>Continue to Checkout</button>
-        <p class="form-note">Demo only. No payment is collected.</p>
+        <button class="button primary full" type="button" data-checkout>Continue to Secure Checkout</button>
+        <p class="form-note">Stripe checkout opens securely after business details are entered.</p>
       </div>
     </aside>
 
@@ -363,6 +379,7 @@
           <button class="icon-button" type="button" data-close-checkout aria-label="Close checkout">x</button>
         </div>
         <form class="checkout-form" data-checkout-form>
+          <div class="checkout-selected" data-checkout-selected></div>
           <label>
             Business name
             <input type="text" name="business" placeholder="Company name" required />
@@ -380,7 +397,11 @@
               <option>Still exploring</option>
             </select>
           </label>
-          <button class="button primary full" type="submit">Place Test Order</button>
+          <label class="checkbox-label">
+            <input type="checkbox" name="terms" required />
+            <span>I understand domain and hosting costs may apply.</span>
+          </label>
+          <button class="button primary full" type="submit">Pay with Stripe</button>
           <p class="form-note" data-checkout-note></p>
         </form>
       </div>
