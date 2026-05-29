@@ -312,7 +312,16 @@
           </p>
         </div>
 
-        <form class="contact-form" data-contact-form>
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/ignixlabs@gmail.com"
+          method="POST"
+          data-contact-form
+        >
+          <input type="hidden" name="_subject" value="New Ignix Labs website inquiry" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display: none" />
           <label>
             Name
             <input type="text" name="name" placeholder="Your name" required />
@@ -334,8 +343,8 @@
             Message
             <textarea name="message" placeholder="Briefly describe the website you need"></textarea>
           </label>
-          <button class="button primary full" type="submit">Send Draft Inquiry</button>
-          <p class="form-note" data-form-note></p>
+          <button class="button primary full" type="submit">Send Inquiry</button>
+          <p class="form-note" data-form-note>Submissions go directly to ignixlabs@gmail.com.</p>
         </form>
       </section>
     </main>

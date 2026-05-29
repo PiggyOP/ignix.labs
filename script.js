@@ -419,13 +419,6 @@ function setupEvents() {
     if (event.target === saleModal) closeSalePopup();
   });
 
-  document.querySelector("[data-contact-form]").addEventListener("submit", (event) => {
-    event.preventDefault();
-    event.currentTarget.reset();
-    document.querySelector("[data-form-note]").textContent =
-      "Draft inquiry saved for testing. This can be connected to your real inbox later.";
-  });
-
   document.querySelector("[data-checkout-form]").addEventListener("submit", (event) => {
     event.preventDefault();
     const selectedPackage = getSelectedPackage();
