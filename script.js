@@ -103,7 +103,7 @@ const packages = [
     name: "Basic Site",
     badge: "Basic",
     price: 749,
-    stripePaymentLink: "",
+    stripePaymentLink: "https://buy.stripe.com/test_28E8wR3Wf67afMV1yzcbC00",
     summary: "A sharp business website for service brands that need a strong first impression.",
     features: [
       "Mobile responsive design",
@@ -117,7 +117,7 @@ const packages = [
     name: "Commerce Build",
     badge: "Most popular",
     price: 1499,
-    stripePaymentLink: "",
+    stripePaymentLink: "https://buy.stripe.com/test_aFa9AV9gz0MQeIR6STcbC01",
     summary: "A polished online store with product pages, checkout flow, and conversion-focused sections.",
     features: [
       "Up to 20 products loaded",
@@ -135,7 +135,7 @@ const packages = [
     name: "Signature Platform",
     badge: "Premium",
     price: 2249,
-    stripePaymentLink: "",
+    stripePaymentLink: "https://buy.stripe.com/test_dRm6oJ50jgLOcAJ2CDcbC02",
     summary: "A custom website system for brands that need deeper content, integrations, and scale.",
     features: [
       "Custom page system",
