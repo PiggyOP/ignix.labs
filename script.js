@@ -107,7 +107,7 @@ const packages = [
     summary: "A sharp business website for service brands that need a strong first impression.",
     features: [
       "Mobile responsive design",
-      "Contact form and lead capture",
+      "Contact form and lead capture"
       "Basic SEO structure",
       "Launch support"
     ]
